@@ -1,0 +1,16 @@
+{
+  "middleware": [
+    "./middleware/Footermiddleware",
+    "./middleware/Testmiddleware"
+  ],
+  "routes": {
+    "Homepage": {
+      "path": "/",
+      "page": "pages/home.js"
+    },
+    "about": {
+      "path": "/about",
+      "page": "pages/about.js"
+    }
+  }
+}
